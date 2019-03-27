@@ -1,0 +1,81 @@
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+header {
+    background-color: #777777
+}
+
+.bear {
+    height: 100px;
+    width: auto;
+    border-radius: 100px;
+}
+
+.name {
+    margin-right: 20px;
+    color: white;
+    text-shadow: 2px 3px black;
+}
+
+.floatRight {
+    float: right;
+    clear: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.menu {
+    width: 25%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    text-decoration: none;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+}
+
+.menu:hover {
+    color: white;
+    background-color: gray;
+}
+
+.highlighted {
+    color: white;
+    background-color: gray;
+}
+
+.col-1 {
+    width: 33%;
+    text-align: center;
+    margin-top: 5px;
+    height: 500px;
+}
+
+li {
+    list-style-type: circle;
+}
+
+.para {
+    width: auto;
+    margin: 20px 0px;
+}
+
+.fish {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    text-shadow: 1px 2px white;
+    border: 2px solid gray;
+    background-image: url(1280px-Oncorhynchus_nerka.jpg);
+    background-repeat: repeat-x;
+    background-size: 250px;
+}
