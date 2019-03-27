@@ -7,30 +7,31 @@ div {
     width: calc(10vw - 2px);
     height: calc(20vh);
     float: left;
+    
+}
+
+div:not(.black) {
+    box-shadow: inset -1px -1px 20px lightslategray;
 }
 
 .lightBlue {
     background-color: lightblue;
-    box-shadow: inset -1px -1px 20px lightslategray;
     border-bottom: 3px solid black;
     box-sizing: border-box
 }
 
 .green {
     background-color: green;
-    box-shadow: inset -1px -1px 20px lightslategray;
 }
 
 .yellow {
     background-color: yellow;
-    box-shadow: inset -1px -1px 20px lightslategray;
     border-bottom: 3px solid black;
     box-sizing: border-box
 }
 
 .purple {
     background-color: purple;
-    box-shadow: inset -1px -1px 20px lightslategray;
 }
 
 .black {
@@ -39,17 +40,14 @@ div {
 
 .blue {
     background-color: blue;
-    box-shadow: inset -1px -1px 20px lightslategray;
 }
 
 .orange {
     background-color: orange;
-    box-shadow: inset -1px -1px 20px lightslategray;
 }
 
 .red {
     background-color: red;
-    box-shadow: inset -1px -1px 20px lightslategray;
 }
 
 .five {
@@ -112,9 +110,3 @@ div:nth-child(10n + 16) {
 div:last-child {
     border-left: 3px solid black;
 }
-
-
-
-
-
-
