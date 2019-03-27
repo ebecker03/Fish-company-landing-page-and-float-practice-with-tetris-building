@@ -1,0 +1,120 @@
+body {
+    margin-left: 4px;
+}
+
+div {
+    display: inline-block;
+    width: calc(10vw - 2px);
+    height: calc(20vh);
+    float: left;
+}
+
+.lightBlue {
+    background-color: lightblue;
+    box-shadow: inset -1px -1px 20px lightslategray;
+    border-bottom: 3px solid black;
+    box-sizing: border-box
+}
+
+.green {
+    background-color: green;
+    box-shadow: inset -1px -1px 20px lightslategray;
+}
+
+.yellow {
+    background-color: yellow;
+    box-shadow: inset -1px -1px 20px lightslategray;
+    border-bottom: 3px solid black;
+    box-sizing: border-box
+}
+
+.purple {
+    background-color: purple;
+    box-shadow: inset -1px -1px 20px lightslategray;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+    box-shadow: inset -1px -1px 20px lightslategray;
+}
+
+.orange {
+    background-color: orange;
+    box-shadow: inset -1px -1px 20px lightslategray;
+}
+
+.red {
+    background-color: red;
+    box-shadow: inset -1px -1px 20px lightslategray;
+}
+
+.five {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+.seven {
+    border-right: 3px solid black;
+    box-sizing: border-box
+}
+
+.eight {
+    border-bottom: 3px solid black;
+}
+
+.fifteen {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    box-sizing: border-box
+}
+
+.nineteen {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    box-sizing: border-box
+}
+
+.twentyFive {
+    border-right: 3px solid black;
+    box-sizing: border-box
+}
+
+div:nth-child(n + 1):nth-child(-n + 10) {
+    border-top: 2px solid black;
+    box-sizing: border-box
+}
+
+div:nth-child(n + 21):nth-child(-n + 30) {
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+
+div:nth-child(10n + 1) {
+    border-left: 2px solid black;
+    box-sizing: border-box;
+}
+
+div:nth-child(10n + 12) {
+    border-right: 3px solid black;
+    box-sizing: border-box;
+}
+
+div:nth-child(10n + 16) {
+    border-right: 3px solid black;
+    box-sizing: border-box;
+}
+
+div:last-child {
+    border-left: 3px solid black;
+}
+
+
+
+
+
+
